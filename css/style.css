@@ -25,36 +25,37 @@
 
 
 /* - General ------------------------------------------------------- */
+
 @font-face {
     font-family: 'DINRoundPro';
-    src: url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Black.eot');
-    src: local('DINRoundPro-Black'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Black.eot?#iefix') format('embedded-opentype'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Black.woff2') format('woff2'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Black.woff') format('woff'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Black.ttf') format('truetype');
+    src: url('../fonts/DINRoundPro-Black.eot');
+    src: local('../fonts/DINRoundPro-Black'),
+        url('../fonts/DINRoundPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINRoundPro-Black.woff2') format('woff2'),
+        url('../fonts/DINRoundPro-Black.woff') format('woff'),
+        url('../fonts/DINRoundPro-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'DINRoundPro';
-    src: url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro.eot');
-    src: local('DINRoundPro'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro.eot?#iefix') format('embedded-opentype'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro.woff2') format('woff2'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro.woff') format('woff'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro.ttf') format('truetype');
+    src: url('../fonts/DINRoundPro.eot');
+    src: local('../fonts/DINRoundPro'),
+        url('../fonts/DINRoundPro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINRoundPro.woff2') format('woff2'),
+        url('../fonts/DINRoundPro.woff') format('woff'),
+        url('../fonts/DINRoundPro.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'DINRoundPro';
-    src: url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Bold.eot');
-    src: local('DINRoundPro-Bold'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Bold.woff2') format('woff2'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Bold.woff') format('woff'),
-        url('https://podficbucket.blob.core.windows.net/$web/fonts/DINRoundPro-Bold.ttf') format('truetype');
+    src: url('../fonts/DINRoundPro-Bold.eot');
+    src: local('../fonts/DINRoundPro-Bold'),
+        url('../fonts/DINRoundPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINRoundPro-Bold.woff2') format('woff2'),
+        url('../fonts/DINRoundPro-Bold.woff') format('woff'),
+        url('../fonts/DINRoundPro-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -152,7 +153,7 @@ a:hover,a:focus{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DINRoundPro', 'Roboto', sans-serif;
     font-weight: 100;
     margin-bottom: 20px;
     line-height: 1.4;
@@ -161,7 +162,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1{
     font-size: 60px;
-    font-family: 'DINRoundPro', 'Roboto';
+/*    font-family: , 'Roboto';*/
     color: #7E1BBA;
 }
 
@@ -195,7 +196,7 @@ h6{
     position: relative;
 }
 .bold{
-    font-weight: 400;
+    font-weight: 600;
 }
 .hint{
     color: #999;
